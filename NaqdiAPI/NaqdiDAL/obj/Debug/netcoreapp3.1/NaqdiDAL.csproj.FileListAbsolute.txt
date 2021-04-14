@@ -1,0 +1,23 @@
+C:\Users\MaxSYS3\source\repos\NaqdiAPI\NaqdiDAL\bin\Debug\netcoreapp3.1\NaqdiDAL.deps.json
+C:\Users\MaxSYS3\source\repos\NaqdiAPI\NaqdiDAL\bin\Debug\netcoreapp3.1\NaqdiDAL.runtimeconfig.json
+C:\Users\MaxSYS3\source\repos\NaqdiAPI\NaqdiDAL\bin\Debug\netcoreapp3.1\NaqdiDAL.runtimeconfig.dev.json
+C:\Users\MaxSYS3\source\repos\NaqdiAPI\NaqdiDAL\bin\Debug\netcoreapp3.1\NaqdiDAL.dll
+C:\Users\MaxSYS3\source\repos\NaqdiAPI\NaqdiDAL\bin\Debug\netcoreapp3.1\NaqdiDAL.pdb
+C:\Users\MaxSYS3\source\repos\NaqdiAPI\NaqdiDAL\obj\Debug\netcoreapp3.1\NaqdiDAL.csprojAssemblyReference.cache
+C:\Users\MaxSYS3\source\repos\NaqdiAPI\NaqdiDAL\obj\Debug\netcoreapp3.1\NaqdiDAL.AssemblyInfoInputs.cache
+C:\Users\MaxSYS3\source\repos\NaqdiAPI\NaqdiDAL\obj\Debug\netcoreapp3.1\NaqdiDAL.AssemblyInfo.cs
+C:\Users\MaxSYS3\source\repos\NaqdiAPI\NaqdiDAL\obj\Debug\netcoreapp3.1\NaqdiDAL.csproj.CoreCompileInputs.cache
+C:\Users\MaxSYS3\source\repos\NaqdiAPI\NaqdiDAL\obj\Debug\netcoreapp3.1\NaqdiDAL.dll
+C:\Users\MaxSYS3\source\repos\NaqdiAPI\NaqdiDAL\obj\Debug\netcoreapp3.1\NaqdiDAL.pdb
+C:\Users\MaxSYS3\source\repos\NaqdiAPI\NaqdiDAL\obj\Debug\netcoreapp3.1\NaqdiDAL.genruntimeconfig.cache
+C:\Users\DELL\Desktop\MaxSoftware -Tasks\BestPayment\28-03-2021\NaqdiAPI\NaqdiDAL\bin\Debug\netcoreapp3.1\NaqdiDAL.deps.json
+C:\Users\DELL\Desktop\MaxSoftware -Tasks\BestPayment\28-03-2021\NaqdiAPI\NaqdiDAL\bin\Debug\netcoreapp3.1\NaqdiDAL.runtimeconfig.json
+C:\Users\DELL\Desktop\MaxSoftware -Tasks\BestPayment\28-03-2021\NaqdiAPI\NaqdiDAL\bin\Debug\netcoreapp3.1\NaqdiDAL.runtimeconfig.dev.json
+C:\Users\DELL\Desktop\MaxSoftware -Tasks\BestPayment\28-03-2021\NaqdiAPI\NaqdiDAL\bin\Debug\netcoreapp3.1\NaqdiDAL.dll
+C:\Users\DELL\Desktop\MaxSoftware -Tasks\BestPayment\28-03-2021\NaqdiAPI\NaqdiDAL\bin\Debug\netcoreapp3.1\NaqdiDAL.pdb
+C:\Users\DELL\Desktop\MaxSoftware -Tasks\BestPayment\28-03-2021\NaqdiAPI\NaqdiDAL\obj\Debug\netcoreapp3.1\NaqdiDAL.AssemblyInfoInputs.cache
+C:\Users\DELL\Desktop\MaxSoftware -Tasks\BestPayment\28-03-2021\NaqdiAPI\NaqdiDAL\obj\Debug\netcoreapp3.1\NaqdiDAL.AssemblyInfo.cs
+C:\Users\DELL\Desktop\MaxSoftware -Tasks\BestPayment\28-03-2021\NaqdiAPI\NaqdiDAL\obj\Debug\netcoreapp3.1\NaqdiDAL.csproj.CoreCompileInputs.cache
+C:\Users\DELL\Desktop\MaxSoftware -Tasks\BestPayment\28-03-2021\NaqdiAPI\NaqdiDAL\obj\Debug\netcoreapp3.1\NaqdiDAL.dll
+C:\Users\DELL\Desktop\MaxSoftware -Tasks\BestPayment\28-03-2021\NaqdiAPI\NaqdiDAL\obj\Debug\netcoreapp3.1\NaqdiDAL.pdb
+C:\Users\DELL\Desktop\MaxSoftware -Tasks\BestPayment\28-03-2021\NaqdiAPI\NaqdiDAL\obj\Debug\netcoreapp3.1\NaqdiDAL.genruntimeconfig.cache

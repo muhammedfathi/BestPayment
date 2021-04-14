@@ -1,0 +1,122 @@
+C:\Users\MaxSYS3\source\repos\NaqdiAPI\NaqdiAPI\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\Users\MaxSYS3\source\repos\NaqdiAPI\NaqdiAPI\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Users\MaxSYS3\source\repos\NaqdiAPI\NaqdiAPI\bin\Debug\netcoreapp3.1\NaqdiAPI.exe
+C:\Users\MaxSYS3\source\repos\NaqdiAPI\NaqdiAPI\bin\Debug\netcoreapp3.1\NaqdiAPI.deps.json
+C:\Users\MaxSYS3\source\repos\NaqdiAPI\NaqdiAPI\bin\Debug\netcoreapp3.1\NaqdiAPI.runtimeconfig.json
+C:\Users\MaxSYS3\source\repos\NaqdiAPI\NaqdiAPI\bin\Debug\netcoreapp3.1\NaqdiAPI.runtimeconfig.dev.json
+C:\Users\MaxSYS3\source\repos\NaqdiAPI\NaqdiAPI\bin\Debug\netcoreapp3.1\NaqdiAPI.dll
+C:\Users\MaxSYS3\source\repos\NaqdiAPI\NaqdiAPI\bin\Debug\netcoreapp3.1\NaqdiAPI.pdb
+C:\Users\MaxSYS3\source\repos\NaqdiAPI\NaqdiAPI\bin\Debug\netcoreapp3.1\Humanizer.dll
+C:\Users\MaxSYS3\source\repos\NaqdiAPI\NaqdiAPI\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
+C:\Users\MaxSYS3\source\repos\NaqdiAPI\NaqdiAPI\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\MaxSYS3\source\repos\NaqdiAPI\NaqdiAPI\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\MaxSYS3\source\repos\NaqdiAPI\NaqdiAPI\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\MaxSYS3\source\repos\NaqdiAPI\NaqdiAPI\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.Design.dll
+C:\Users\MaxSYS3\source\repos\NaqdiAPI\NaqdiAPI\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\MaxSYS3\source\repos\NaqdiAPI\NaqdiAPI\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.SqlServer.Design.dll
+C:\Users\MaxSYS3\source\repos\NaqdiAPI\NaqdiAPI\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\MaxSYS3\source\repos\NaqdiAPI\NaqdiAPI\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\MaxSYS3\source\repos\NaqdiAPI\NaqdiAPI\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\MaxSYS3\source\repos\NaqdiAPI\NaqdiAPI\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\MaxSYS3\source\repos\NaqdiAPI\NaqdiAPI\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\MaxSYS3\source\repos\NaqdiAPI\NaqdiAPI\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.dll
+C:\Users\MaxSYS3\source\repos\NaqdiAPI\NaqdiAPI\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\MaxSYS3\source\repos\NaqdiAPI\NaqdiAPI\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll
+C:\Users\MaxSYS3\source\repos\NaqdiAPI\NaqdiAPI\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+C:\Users\MaxSYS3\source\repos\NaqdiAPI\NaqdiAPI\bin\Debug\netcoreapp3.1\System.Collections.Immutable.dll
+C:\Users\MaxSYS3\source\repos\NaqdiAPI\NaqdiAPI\bin\Debug\netcoreapp3.1\System.ComponentModel.Annotations.dll
+C:\Users\MaxSYS3\source\repos\NaqdiAPI\NaqdiAPI\bin\Debug\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll
+C:\Users\MaxSYS3\source\repos\NaqdiAPI\NaqdiAPI\bin\Debug\netcoreapp3.1\runtimes\win7-x64\native\sni.dll
+C:\Users\MaxSYS3\source\repos\NaqdiAPI\NaqdiAPI\bin\Debug\netcoreapp3.1\runtimes\win7-x86\native\sni.dll
+C:\Users\MaxSYS3\source\repos\NaqdiAPI\NaqdiAPI\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netstandard1.3\System.Data.SqlClient.dll
+C:\Users\MaxSYS3\source\repos\NaqdiAPI\NaqdiAPI\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard1.3\System.Data.SqlClient.dll
+C:\Users\MaxSYS3\source\repos\NaqdiAPI\NaqdiAPI\obj\Debug\netcoreapp3.1\NaqdiAPI.csprojAssemblyReference.cache
+C:\Users\MaxSYS3\source\repos\NaqdiAPI\NaqdiAPI\obj\Debug\netcoreapp3.1\NaqdiAPI.AssemblyInfoInputs.cache
+C:\Users\MaxSYS3\source\repos\NaqdiAPI\NaqdiAPI\obj\Debug\netcoreapp3.1\NaqdiAPI.AssemblyInfo.cs
+C:\Users\MaxSYS3\source\repos\NaqdiAPI\NaqdiAPI\obj\Debug\netcoreapp3.1\NaqdiAPI.csproj.CoreCompileInputs.cache
+C:\Users\MaxSYS3\source\repos\NaqdiAPI\NaqdiAPI\obj\Debug\netcoreapp3.1\NaqdiAPI.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\MaxSYS3\source\repos\NaqdiAPI\NaqdiAPI\obj\Debug\netcoreapp3.1\staticwebassets\NaqdiAPI.StaticWebAssets.Manifest.cache
+C:\Users\MaxSYS3\source\repos\NaqdiAPI\NaqdiAPI\obj\Debug\netcoreapp3.1\staticwebassets\NaqdiAPI.StaticWebAssets.xml
+C:\Users\MaxSYS3\source\repos\NaqdiAPI\NaqdiAPI\obj\Debug\netcoreapp3.1\scopedcss\bundle\NaqdiAPI.styles.css
+C:\Users\MaxSYS3\source\repos\NaqdiAPI\NaqdiAPI\obj\Debug\netcoreapp3.1\NaqdiAPI.RazorTargetAssemblyInfo.cache
+C:\Users\MaxSYS3\source\repos\NaqdiAPI\NaqdiAPI\obj\Debug\netcoreapp3.1\NaqdiAPI.csproj.CopyComplete
+C:\Users\MaxSYS3\source\repos\NaqdiAPI\NaqdiAPI\obj\Debug\netcoreapp3.1\NaqdiAPI.dll
+C:\Users\MaxSYS3\source\repos\NaqdiAPI\NaqdiAPI\obj\Debug\netcoreapp3.1\NaqdiAPI.pdb
+C:\Users\MaxSYS3\source\repos\NaqdiAPI\NaqdiAPI\obj\Debug\netcoreapp3.1\NaqdiAPI.genruntimeconfig.cache
+C:\Users\DELL\Desktop\MaxSoftware -Tasks\BestPayment\28-03-2021\NaqdiAPI\NaqdiAPI\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\Users\DELL\Desktop\MaxSoftware -Tasks\BestPayment\28-03-2021\NaqdiAPI\NaqdiAPI\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Users\DELL\Desktop\MaxSoftware -Tasks\BestPayment\28-03-2021\NaqdiAPI\NaqdiAPI\bin\Debug\netcoreapp3.1\NaqdiAPI.exe
+C:\Users\DELL\Desktop\MaxSoftware -Tasks\BestPayment\28-03-2021\NaqdiAPI\NaqdiAPI\bin\Debug\netcoreapp3.1\NaqdiAPI.deps.json
+C:\Users\DELL\Desktop\MaxSoftware -Tasks\BestPayment\28-03-2021\NaqdiAPI\NaqdiAPI\bin\Debug\netcoreapp3.1\NaqdiAPI.runtimeconfig.json
+C:\Users\DELL\Desktop\MaxSoftware -Tasks\BestPayment\28-03-2021\NaqdiAPI\NaqdiAPI\bin\Debug\netcoreapp3.1\NaqdiAPI.runtimeconfig.dev.json
+C:\Users\DELL\Desktop\MaxSoftware -Tasks\BestPayment\28-03-2021\NaqdiAPI\NaqdiAPI\bin\Debug\netcoreapp3.1\NaqdiAPI.dll
+C:\Users\DELL\Desktop\MaxSoftware -Tasks\BestPayment\28-03-2021\NaqdiAPI\NaqdiAPI\bin\Debug\netcoreapp3.1\NaqdiAPI.pdb
+C:\Users\DELL\Desktop\MaxSoftware -Tasks\BestPayment\28-03-2021\NaqdiAPI\NaqdiAPI\bin\Debug\netcoreapp3.1\Humanizer.dll
+C:\Users\DELL\Desktop\MaxSoftware -Tasks\BestPayment\28-03-2021\NaqdiAPI\NaqdiAPI\bin\Debug\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\DELL\Desktop\MaxSoftware -Tasks\BestPayment\28-03-2021\NaqdiAPI\NaqdiAPI\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
+C:\Users\DELL\Desktop\MaxSoftware -Tasks\BestPayment\28-03-2021\NaqdiAPI\NaqdiAPI\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\DELL\Desktop\MaxSoftware -Tasks\BestPayment\28-03-2021\NaqdiAPI\NaqdiAPI\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\DELL\Desktop\MaxSoftware -Tasks\BestPayment\28-03-2021\NaqdiAPI\NaqdiAPI\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.InMemory.dll
+C:\Users\DELL\Desktop\MaxSoftware -Tasks\BestPayment\28-03-2021\NaqdiAPI\NaqdiAPI\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\DELL\Desktop\MaxSoftware -Tasks\BestPayment\28-03-2021\NaqdiAPI\NaqdiAPI\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.Design.dll
+C:\Users\DELL\Desktop\MaxSoftware -Tasks\BestPayment\28-03-2021\NaqdiAPI\NaqdiAPI\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\DELL\Desktop\MaxSoftware -Tasks\BestPayment\28-03-2021\NaqdiAPI\NaqdiAPI\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.SqlServer.Design.dll
+C:\Users\DELL\Desktop\MaxSoftware -Tasks\BestPayment\28-03-2021\NaqdiAPI\NaqdiAPI\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\DELL\Desktop\MaxSoftware -Tasks\BestPayment\28-03-2021\NaqdiAPI\NaqdiAPI\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\DELL\Desktop\MaxSoftware -Tasks\BestPayment\28-03-2021\NaqdiAPI\NaqdiAPI\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.dll
+C:\Users\DELL\Desktop\MaxSoftware -Tasks\BestPayment\28-03-2021\NaqdiAPI\NaqdiAPI\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\DELL\Desktop\MaxSoftware -Tasks\BestPayment\28-03-2021\NaqdiAPI\NaqdiAPI\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.FileExtensions.dll
+C:\Users\DELL\Desktop\MaxSoftware -Tasks\BestPayment\28-03-2021\NaqdiAPI\NaqdiAPI\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Json.dll
+C:\Users\DELL\Desktop\MaxSoftware -Tasks\BestPayment\28-03-2021\NaqdiAPI\NaqdiAPI\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\DELL\Desktop\MaxSoftware -Tasks\BestPayment\28-03-2021\NaqdiAPI\NaqdiAPI\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\DELL\Desktop\MaxSoftware -Tasks\BestPayment\28-03-2021\NaqdiAPI\NaqdiAPI\bin\Debug\netcoreapp3.1\Microsoft.Extensions.FileProviders.Abstractions.dll
+C:\Users\DELL\Desktop\MaxSoftware -Tasks\BestPayment\28-03-2021\NaqdiAPI\NaqdiAPI\bin\Debug\netcoreapp3.1\Microsoft.Extensions.FileProviders.Physical.dll
+C:\Users\DELL\Desktop\MaxSoftware -Tasks\BestPayment\28-03-2021\NaqdiAPI\NaqdiAPI\bin\Debug\netcoreapp3.1\Microsoft.Extensions.FileSystemGlobbing.dll
+C:\Users\DELL\Desktop\MaxSoftware -Tasks\BestPayment\28-03-2021\NaqdiAPI\NaqdiAPI\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.dll
+C:\Users\DELL\Desktop\MaxSoftware -Tasks\BestPayment\28-03-2021\NaqdiAPI\NaqdiAPI\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\DELL\Desktop\MaxSoftware -Tasks\BestPayment\28-03-2021\NaqdiAPI\NaqdiAPI\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll
+C:\Users\DELL\Desktop\MaxSoftware -Tasks\BestPayment\28-03-2021\NaqdiAPI\NaqdiAPI\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+C:\Users\DELL\Desktop\MaxSoftware -Tasks\BestPayment\28-03-2021\NaqdiAPI\NaqdiAPI\bin\Debug\netcoreapp3.1\Microsoft.Identity.Client.dll
+C:\Users\DELL\Desktop\MaxSoftware -Tasks\BestPayment\28-03-2021\NaqdiAPI\NaqdiAPI\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\DELL\Desktop\MaxSoftware -Tasks\BestPayment\28-03-2021\NaqdiAPI\NaqdiAPI\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Logging.dll
+C:\Users\DELL\Desktop\MaxSoftware -Tasks\BestPayment\28-03-2021\NaqdiAPI\NaqdiAPI\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.dll
+C:\Users\DELL\Desktop\MaxSoftware -Tasks\BestPayment\28-03-2021\NaqdiAPI\NaqdiAPI\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\DELL\Desktop\MaxSoftware -Tasks\BestPayment\28-03-2021\NaqdiAPI\NaqdiAPI\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Tokens.dll
+C:\Users\DELL\Desktop\MaxSoftware -Tasks\BestPayment\28-03-2021\NaqdiAPI\NaqdiAPI\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\DELL\Desktop\MaxSoftware -Tasks\BestPayment\28-03-2021\NaqdiAPI\NaqdiAPI\bin\Debug\netcoreapp3.1\System.Collections.Immutable.dll
+C:\Users\DELL\Desktop\MaxSoftware -Tasks\BestPayment\28-03-2021\NaqdiAPI\NaqdiAPI\bin\Debug\netcoreapp3.1\System.ComponentModel.Annotations.dll
+C:\Users\DELL\Desktop\MaxSoftware -Tasks\BestPayment\28-03-2021\NaqdiAPI\NaqdiAPI\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
+C:\Users\DELL\Desktop\MaxSoftware -Tasks\BestPayment\28-03-2021\NaqdiAPI\NaqdiAPI\bin\Debug\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll
+C:\Users\DELL\Desktop\MaxSoftware -Tasks\BestPayment\28-03-2021\NaqdiAPI\NaqdiAPI\bin\Debug\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\DELL\Desktop\MaxSoftware -Tasks\BestPayment\28-03-2021\NaqdiAPI\NaqdiAPI\bin\Debug\netcoreapp3.1\System.Runtime.Caching.dll
+C:\Users\DELL\Desktop\MaxSoftware -Tasks\BestPayment\28-03-2021\NaqdiAPI\NaqdiAPI\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
+C:\Users\DELL\Desktop\MaxSoftware -Tasks\BestPayment\28-03-2021\NaqdiAPI\NaqdiAPI\bin\Debug\netcoreapp3.1\System.Text.Json.dll
+C:\Users\DELL\Desktop\MaxSoftware -Tasks\BestPayment\28-03-2021\NaqdiAPI\NaqdiAPI\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\DELL\Desktop\MaxSoftware -Tasks\BestPayment\28-03-2021\NaqdiAPI\NaqdiAPI\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\DELL\Desktop\MaxSoftware -Tasks\BestPayment\28-03-2021\NaqdiAPI\NaqdiAPI\bin\Debug\netcoreapp3.1\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\DELL\Desktop\MaxSoftware -Tasks\BestPayment\28-03-2021\NaqdiAPI\NaqdiAPI\bin\Debug\netcoreapp3.1\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\DELL\Desktop\MaxSoftware -Tasks\BestPayment\28-03-2021\NaqdiAPI\NaqdiAPI\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\DELL\Desktop\MaxSoftware -Tasks\BestPayment\28-03-2021\NaqdiAPI\NaqdiAPI\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\DELL\Desktop\MaxSoftware -Tasks\BestPayment\28-03-2021\NaqdiAPI\NaqdiAPI\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\DELL\Desktop\MaxSoftware -Tasks\BestPayment\28-03-2021\NaqdiAPI\NaqdiAPI\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\DELL\Desktop\MaxSoftware -Tasks\BestPayment\28-03-2021\NaqdiAPI\NaqdiAPI\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\DELL\Desktop\MaxSoftware -Tasks\BestPayment\28-03-2021\NaqdiAPI\NaqdiAPI\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\DELL\Desktop\MaxSoftware -Tasks\BestPayment\28-03-2021\NaqdiAPI\NaqdiAPI\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\Users\DELL\Desktop\MaxSoftware -Tasks\BestPayment\28-03-2021\NaqdiAPI\NaqdiAPI\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\DELL\Desktop\MaxSoftware -Tasks\BestPayment\28-03-2021\NaqdiAPI\NaqdiAPI\bin\Debug\netcoreapp3.1\NaqdiBLL.dll
+C:\Users\DELL\Desktop\MaxSoftware -Tasks\BestPayment\28-03-2021\NaqdiAPI\NaqdiAPI\bin\Debug\netcoreapp3.1\NaqdiDAL.dll
+C:\Users\DELL\Desktop\MaxSoftware -Tasks\BestPayment\28-03-2021\NaqdiAPI\NaqdiAPI\bin\Debug\netcoreapp3.1\NaqdiBLL.pdb
+C:\Users\DELL\Desktop\MaxSoftware -Tasks\BestPayment\28-03-2021\NaqdiAPI\NaqdiAPI\bin\Debug\netcoreapp3.1\NaqdiDAL.pdb
+C:\Users\DELL\Desktop\MaxSoftware -Tasks\BestPayment\28-03-2021\NaqdiAPI\NaqdiAPI\obj\Debug\netcoreapp3.1\NaqdiAPI.csprojAssemblyReference.cache
+C:\Users\DELL\Desktop\MaxSoftware -Tasks\BestPayment\28-03-2021\NaqdiAPI\NaqdiAPI\obj\Debug\netcoreapp3.1\NaqdiAPI.AssemblyInfoInputs.cache
+C:\Users\DELL\Desktop\MaxSoftware -Tasks\BestPayment\28-03-2021\NaqdiAPI\NaqdiAPI\obj\Debug\netcoreapp3.1\NaqdiAPI.AssemblyInfo.cs
+C:\Users\DELL\Desktop\MaxSoftware -Tasks\BestPayment\28-03-2021\NaqdiAPI\NaqdiAPI\obj\Debug\netcoreapp3.1\NaqdiAPI.csproj.CoreCompileInputs.cache
+C:\Users\DELL\Desktop\MaxSoftware -Tasks\BestPayment\28-03-2021\NaqdiAPI\NaqdiAPI\obj\Debug\netcoreapp3.1\NaqdiAPI.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\DELL\Desktop\MaxSoftware -Tasks\BestPayment\28-03-2021\NaqdiAPI\NaqdiAPI\obj\Debug\netcoreapp3.1\staticwebassets\NaqdiAPI.StaticWebAssets.Manifest.cache
+C:\Users\DELL\Desktop\MaxSoftware -Tasks\BestPayment\28-03-2021\NaqdiAPI\NaqdiAPI\obj\Debug\netcoreapp3.1\staticwebassets\NaqdiAPI.StaticWebAssets.xml
+C:\Users\DELL\Desktop\MaxSoftware -Tasks\BestPayment\28-03-2021\NaqdiAPI\NaqdiAPI\obj\Debug\netcoreapp3.1\scopedcss\bundle\NaqdiAPI.styles.css
+C:\Users\DELL\Desktop\MaxSoftware -Tasks\BestPayment\28-03-2021\NaqdiAPI\NaqdiAPI\obj\Debug\netcoreapp3.1\NaqdiAPI.RazorTargetAssemblyInfo.cache
+C:\Users\DELL\Desktop\MaxSoftware -Tasks\BestPayment\28-03-2021\NaqdiAPI\NaqdiAPI\obj\Debug\netcoreapp3.1\NaqdiAPI.csproj.CopyComplete
+C:\Users\DELL\Desktop\MaxSoftware -Tasks\BestPayment\28-03-2021\NaqdiAPI\NaqdiAPI\obj\Debug\netcoreapp3.1\NaqdiAPI.dll
+C:\Users\DELL\Desktop\MaxSoftware -Tasks\BestPayment\28-03-2021\NaqdiAPI\NaqdiAPI\obj\Debug\netcoreapp3.1\NaqdiAPI.pdb
+C:\Users\DELL\Desktop\MaxSoftware -Tasks\BestPayment\28-03-2021\NaqdiAPI\NaqdiAPI\obj\Debug\netcoreapp3.1\NaqdiAPI.genruntimeconfig.cache
