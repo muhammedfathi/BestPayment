@@ -33,14 +33,34 @@ namespace NaqdiAPI.Controllers
         [HttpGet, Route("GetchargeOperation/{id}")]
         public ActionResult GetbyId(int id)
         {
-            if (charge_Operation.Find(id) != null)
+            if (charge_Operation.FindByCondition(e => e.ID == id) != null)
             {
-                return Ok(charge_Operation.Find(id));
+                return Ok(charge_Operation.FindByCondition(ag => ag.ID == id).FirstOrDefault());
             }
 
             else { return NotFound(); }
         }
 
+        /// <summary>
+        /// GetbyIdCOM/User/....
+        /// </summary>
+
+
+        [HttpDelete]
+        [Route("DeleteChargeOperation/{id}")]
+        public ActionResult Delete(int id)
+        {
+            var entity = charge_Operation.FindByCondition(ag => ag.ID == id).FirstOrDefault();
+            if (entity != null)
+            {
+                charge_Operation.Delet(entity);
+                return Ok();
+            }
+            else
+                return NotFound();
+        }
+
+     
 
 
         [HttpPost]
@@ -80,19 +100,7 @@ namespace NaqdiAPI.Controllers
 
 
 
-        [HttpDelete]
-        [Route("DeleteChargeOperation/{id}")]
-        public ActionResult Delete(int id)
-        {
-
-            if (charge_Operation.Find(id) != null)
-            {
-                charge_Operation.Delet(id);
-                return Ok();
-            }
-            else //NOtFOund 
-                return NotFound();
-
-        }
+       
+   
     }
 }

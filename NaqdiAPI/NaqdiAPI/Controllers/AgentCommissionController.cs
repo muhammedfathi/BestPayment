@@ -33,21 +33,31 @@ namespace NaqdiAPI.Controllers
         [HttpGet, Route("GetAgentCommission/{id}")]
         public ActionResult GetbyId(int id)
         {
-            if (AgentCommissions.Find(id) != null)
+            if (AgentCommissions.FindByCondition(e=>e.ID==id)!=null)
             {
-                return Ok(AgentCommissions.Find(id));
+                return Ok(AgentCommissions.FindByCondition(ag=>ag.ID==id).FirstOrDefault());
             }
 
             else { return NotFound(); }
         }
 
 
-        /// <summary>
-        /// GetBY UserID &DeleteBy UserID
-        /// </summary>
-     
 
-        
+
+        [HttpGet, Route("GetAgentCommission/{id}")]
+        public ActionResult GetbyUserId(int userID)
+        {
+            if (AgentCommissions.FindByCondition(e => e.UserID == userID) != null)
+            {
+                return Ok(AgentCommissions.FindByCondition(ag => ag.ID == userID));
+            }
+
+            else { return NotFound(); }
+        }
+
+
+
+
         [HttpPost]
         [Route("AddNew")]
         public ActionResult Post([FromBody] AgentCommissions NewAgentCommissions)
@@ -82,17 +92,34 @@ namespace NaqdiAPI.Controllers
                 return BadRequest();
         }
 
+
         [HttpDelete]
         [Route("DeleteAgentCommission/{id}")]
         public ActionResult Delete(int id)
         {
-            if (AgentCommissions.Find(id) != null)
+          var entity=  AgentCommissions.FindByCondition(ag => ag.ID == id).FirstOrDefault();
+            if (entity != null)
             {
-                AgentCommissions.Delet(id);
+                AgentCommissions.Delet(entity);
                 return Ok();
             }
-            else //NOtFOund 
+            else
                 return NotFound();
         }
+
+        [HttpDelete]
+        [Route("DeleteAgentCommByUID/{UID}")]
+        public ActionResult DeleteByUID(int UID)
+        {
+            var entity = AgentCommissions.FindByCondition(ag => ag.UserID == UID).FirstOrDefault();
+            if (entity != null)
+            {
+                AgentCommissions.Delet(entity);
+                return Ok();
+            }
+            else
+                return NotFound();
+        }
+
     }
 }

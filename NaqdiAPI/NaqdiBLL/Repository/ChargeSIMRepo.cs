@@ -4,6 +4,7 @@ using NaqdiDAL.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Linq.Expressions;
 using System.Text;
 
 namespace NaqdiBLL.Repository
@@ -26,19 +27,15 @@ namespace NaqdiBLL.Repository
             db.SaveChanges();
         }
 
-        public void Delet(int id)
+        public IList<ChargeSim> FindByCondition(Expression<Func<ChargeSim, bool>> expression)
         {
-            if (Find(id) != null)
-            {
-                db.ChargeSims.Remove(Find(id));
-                db.SaveChanges();
-
-            }
+            return db.ChargeSims.Where(expression).ToList();
         }
 
-        public ChargeSim Find(int Key)
+        public void Delet(ChargeSim Entity)
         {
-            return db.ChargeSims.Find(Key) ?? null;
+            db.ChargeSims.Remove(Entity);
+            db.SaveChanges();
         }
 
         public IList<ChargeSim> getAll()

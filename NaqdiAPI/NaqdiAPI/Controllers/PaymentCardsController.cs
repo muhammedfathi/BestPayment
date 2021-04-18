@@ -33,15 +33,27 @@ namespace NaqdiAPI.Controllers
         [HttpGet, Route("GetPaymentCard/{id}")]
         public ActionResult GetbyId(int id)
         {
-            if (PaymentCards.Find(id) != null)
+            if (PaymentCards.FindByCondition(e => e.id == id) != null)
             {
-                return Ok(PaymentCards.Find(id));
+                return Ok(PaymentCards.FindByCondition(ag => ag.id == id).FirstOrDefault());
             }
 
             else { return NotFound(); }
         }
 
-
+        [HttpDelete]
+        [Route("DeletePaymentCard/{id}")]
+        public ActionResult Delete(int id)
+        {
+            var entity = PaymentCards.FindByCondition(ag => ag.id == id).FirstOrDefault();
+            if (entity != null)
+            {
+                PaymentCards.Delet(entity);
+                return Ok();
+            }
+            else
+                return NotFound();
+        }
 
         [HttpPost]
         [Route("AddNew")]
@@ -75,21 +87,6 @@ namespace NaqdiAPI.Controllers
             }
             else
                 return BadRequest();
-        }
-        // DELETE api/<TestController>/5
-        [HttpDelete]
-        [Route("DeletePaymentCard/{id}")]
-        public ActionResult Delete(int id)
-        {
-
-            if (PaymentCards.Find(id) != null)
-            {
-                PaymentCards.Delet(id);
-                return Ok();
-            }
-            else //NOtFOund 
-                return NotFound();
-
         }
     }
 }

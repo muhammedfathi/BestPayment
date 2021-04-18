@@ -4,6 +4,7 @@ using NaqdiDAL.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Linq.Expressions;
 using System.Text;
 
 
@@ -40,21 +41,20 @@ namespace NaqdiBLL.Repository
            
         }
 
-        public void Delet(int id)
+
+        public IList<TUser> FindByCondition(Expression<Func<TUser, bool>> expression)
         {
-
-            if (Find(id) != null)
-            {
-                db.TUser.Remove(Find(id));
-                db.SaveChanges();
-
-            }
+            return db.TUser.Where(expression).ToList();
         }
 
-        public TUser Find(int Key)
+        public void Delet(TUser Entity)
         {
-            return db.TUser.Find(Key);
+            db.TUser.Remove(Entity);
+            db.SaveChanges();
         }
+
+
+
 
     }
 }

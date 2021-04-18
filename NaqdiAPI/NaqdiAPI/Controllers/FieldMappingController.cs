@@ -34,18 +34,27 @@ namespace NaqdiAPI.Controllers
         [HttpGet, Route("GetFields_Mapping/{id}")]
         public ActionResult GetbyId(int id)
         {
-            if (Fields_Mapping.Find(id) != null)
+            if (Fields_Mapping.FindByCondition(e => e.ID == id) != null)
             {
-                return Ok(Fields_Mapping.Find(id));
+                return Ok(Fields_Mapping.FindByCondition(ag => ag.ID == id).FirstOrDefault());
             }
 
             else { return NotFound(); }
         }
 
-
-        /// <summary>
-        /// GetBY UserID &DeleteBy UserID
-        /// </summary>
+        [HttpDelete]
+        [Route("DeleteFieldMapping/{id}")]
+        public ActionResult Delete(int id)
+        {
+            var entity = Fields_Mapping.FindByCondition(ag => ag.ID == id).FirstOrDefault();
+            if (entity != null)
+            {
+                Fields_Mapping.Delet(entity);
+                return Ok();
+            }
+            else
+                return NotFound();
+        }
 
 
 
@@ -82,18 +91,6 @@ namespace NaqdiAPI.Controllers
             else
                 return BadRequest();
         }
-
-        [HttpDelete]
-        [Route("DeleteComplaint/{id}")]
-        public ActionResult Delete(int id)
-        {
-            if (Fields_Mapping.Find(id) != null)
-            {
-                Fields_Mapping.Delet(id);
-                return Ok();
-            }
-            else //NOtFOund 
-                return NotFound();
-        }
+       
     }
 }

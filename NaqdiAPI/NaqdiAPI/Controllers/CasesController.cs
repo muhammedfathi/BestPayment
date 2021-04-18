@@ -32,15 +32,28 @@ namespace NaqdiAPI.Controllers
         // GET api/<CasesController>/5
         [HttpGet("{id}")]
         [Route("GetCase/{id}")]
-        public ActionResult Get(int id)
+        public ActionResult GetbyId(int id)
         {
-
-            if (Cases.Find(id) != null)
+            if (Cases.FindByCondition(e => e.ID == id) != null)
             {
-                return Ok(Cases.Find(id));
+                return Ok(Cases.FindByCondition(ag => ag.ID == id).FirstOrDefault());
             }
 
             else { return NotFound(); }
+        }
+
+        [HttpDelete]
+        [Route("DeleteCase/{id}")]
+        public ActionResult Delete(int id)
+        {
+            var entity = Cases.FindByCondition(ag => ag.ID == id).FirstOrDefault();
+            if (entity != null)
+            {
+                Cases.Delet(entity);
+                return Ok();
+            }
+            else
+                return NotFound();
         }
 
         // POST api/<CasesController>
@@ -77,22 +90,6 @@ namespace NaqdiAPI.Controllers
             }
             else
                 return BadRequest();
-
-        }
-
-        // DELETE api/<CasesController>/5
-        [HttpDelete]
-        [Route("DeleteCase/{id}")]
-        public ActionResult Delete(int id)
-        {
-
-            if (Cases.Find(id) != null)
-            {
-                Cases.Delet(id);
-                return Ok();
-            }
-            else //NOtFOund 
-                return NotFound();
 
         }
     }

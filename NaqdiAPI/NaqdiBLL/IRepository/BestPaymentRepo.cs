@@ -1,5 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
+using System.Linq.Expressions;
 using System.Text;
 
 namespace NaqdiBLL.IRepository
@@ -13,12 +15,9 @@ namespace NaqdiBLL.IRepository
 
         public void update(T oldEntity);
 
-        public void Delet(int id);
+        public void Delet(T Entity);
+        IList<T> FindByCondition(Expression<Func<T, bool>> expression);
 
-        public T Find(int Key);//?
-
-
-      
 
     }
 }

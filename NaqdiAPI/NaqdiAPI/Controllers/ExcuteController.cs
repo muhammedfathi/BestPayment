@@ -32,12 +32,26 @@ namespace NaqdiAPI.Controllers
         [HttpGet, Route("GetExcute/{id}")]
         public ActionResult GetbyId(int id)
         {
-            if (Excute.Find(id) != null)
+            if (Excute.FindByCondition(e => e.ID == id) != null)
             {
-                return Ok(Excute.Find(id));
+                return Ok(Excute.FindByCondition(ag => ag.ID == id).FirstOrDefault());
             }
 
             else { return NotFound(); }
+        }
+
+        [HttpDelete]
+        [Route("DeleteExcute/{id}")]
+        public ActionResult Delete(int id)
+        {
+            var entity = Excute.FindByCondition(ag => ag.ID == id).FirstOrDefault();
+            if (entity != null)
+            {
+                Excute.Delet(entity);
+                return Ok();
+            }
+            else
+                return NotFound();
         }
 
 
@@ -75,20 +89,7 @@ namespace NaqdiAPI.Controllers
             else
                 return BadRequest();
         }
-        // DELETE api/<TestController>/5
-        [HttpDelete]
-        [Route("DeleteExcute/{id}")]
-        public ActionResult Delete(int id)
-        {
-
-            if (Excute.Find(id) != null)
-            {
-                Excute.Delet(id);
-                return Ok();
-            }
-            else //NOtFOund 
-                return NotFound();
-
-        }
+       
+     
     }
 }

@@ -26,23 +26,30 @@ namespace NaqdiAPI.Controllers
             return Execution_Response.getAll();
         }
 
-        /// <summary>
-        /// Find By ExecutionID Nor Row ID
-        /// </summary>
-        
-
         [HttpGet, Route("GetExecution_Response/{id}")]
         public ActionResult GetbyId(int id)
         {
-            if (Execution_Response.Find(id) != null)
+            if (Execution_Response.FindByCondition(e => e.ID == id) != null)
             {
-                return Ok(Execution_Response.Find(id));
+                return Ok(Execution_Response.FindByCondition(ag => ag.ID == id).FirstOrDefault());
             }
-
+            
             else { return NotFound(); }
         }
 
-
+        [HttpDelete]
+        [Route("DeleteExecution_Response/{id}")]
+        public ActionResult Delete(int id)
+        {
+            var entity = Execution_Response.FindByCondition(ag => ag.ID == id).FirstOrDefault();
+            if (entity != null)
+            {
+                Execution_Response.Delet(entity);
+                return Ok();
+            }
+            else
+                return NotFound();
+        }
 
         [HttpPost]
         [Route("AddNew")]
@@ -78,20 +85,6 @@ namespace NaqdiAPI.Controllers
                 return BadRequest();
         }
      
-        [HttpDelete]
-        //[Route("DeleteExecution_Response/{id}")]
-        public ActionResult Delete(int id)
-        {
-
-            if (Execution_Response.Find(id) != null)
-            {
-                Execution_Response.Delet(id);
-                return Ok();
-            }
-            else //NOtFOund 
-                return NotFound();
-
-        }
     }
 }
 

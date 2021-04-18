@@ -34,12 +34,26 @@ namespace NaqdiAPI.Controllers
         [HttpGet, Route("GetUserDeposit/{id}")]
         public ActionResult GetbyId(int id)
         {
-            if (UsersDeposit.Find(id) != null)
+            if (UsersDeposit.FindByCondition(e => e.ID == id) != null)
             {
-                return Ok(UsersDeposit.Find(id));
+                return Ok(UsersDeposit.FindByCondition(ag => ag.ID == id).FirstOrDefault());
             }
 
             else { return NotFound(); }
+        }
+
+        [HttpDelete]
+        [Route("DeleteUsersDeposit/{id}")]
+        public ActionResult Delete(int id)
+        {
+            var entity = UsersDeposit.FindByCondition(ag => ag.ID == id).FirstOrDefault();
+            if (entity != null)
+            {
+                UsersDeposit.Delet(entity);
+                return Ok();
+            }
+            else
+                return NotFound();
         }
 
         [HttpPost]
@@ -75,23 +89,6 @@ namespace NaqdiAPI.Controllers
             }
             else
                 return BadRequest();
-        }
-
-
-
-        [HttpDelete]
-        [Route("DeleteUsersDeposit/{id}")]
-        public ActionResult Delete(int id)
-        {
-
-            if (UsersDeposit.Find(id) != null)
-            {
-                UsersDeposit.Delet(id);
-                return Ok();
-            }
-            else //NOtFOund 
-                return NotFound();
-
         }
     }
 

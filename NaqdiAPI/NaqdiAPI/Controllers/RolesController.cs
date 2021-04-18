@@ -32,12 +32,26 @@ namespace NaqdiAPI.Controllers
         [HttpGet, Route("GetRole/{id}")]
         public ActionResult GetbyId(int id)
         {
-            if (role.Find(id) != null)
+            if (role.FindByCondition(e => e.ID == id) != null)
             {
-                return Ok(role.Find(id));
+                return Ok(role.FindByCondition(ag => ag.ID == id).FirstOrDefault());
             }
 
             else { return NotFound(); }
+        }
+
+        [HttpDelete]
+        [Route("DeleteRole/{id}")]
+        public ActionResult Delete(int id)
+        {
+            var entity = role.FindByCondition(ag => ag.ID == id).FirstOrDefault();
+            if (entity != null)
+            {
+                role.Delet(entity);
+                return Ok();
+            }
+            else
+                return NotFound();
         }
 
         [HttpPost]
@@ -70,22 +84,6 @@ namespace NaqdiAPI.Controllers
             }
             else
                 return BadRequest();
-        }
-        // DELETE api/<TestController>/5
-        [HttpDelete]
-        [Route("DeleteRole/{id}")]
-        public ActionResult Delete(int id)
-        {
-            try
-            {
-                role.Delet(id);
-                return Ok();
-            }
-            catch (Exception xx)
-            {
-                return NotFound();
-            }
-
         }
     }
 }

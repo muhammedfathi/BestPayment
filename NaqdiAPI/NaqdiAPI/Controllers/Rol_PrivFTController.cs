@@ -32,12 +32,26 @@ namespace NaqdiAPI.Controllers
         [HttpGet, Route("GetRol_PrivFT/{id}")]
         public ActionResult GetbyId(int id)
         {
-            if (Rol_PrivFT.Find(id) != null)
+            if (Rol_PrivFT.FindByCondition(e => e.ID == id) != null)
             {
-                return Ok(Rol_PrivFT.Find(id));
+                return Ok(Rol_PrivFT.FindByCondition(ag => ag.ID == id).FirstOrDefault());
             }
 
             else { return NotFound(); }
+        }
+
+        [HttpDelete]
+        [Route("DeleteRol_PrivFT/{id}")]
+        public ActionResult Delete(int id)
+        {
+            var entity = Rol_PrivFT.FindByCondition(ag => ag.ID == id).FirstOrDefault();
+            if (entity != null)
+            {
+                Rol_PrivFT.Delet(entity);
+                return Ok();
+            }
+            else
+                return NotFound();
         }
 
 
@@ -77,20 +91,6 @@ namespace NaqdiAPI.Controllers
         }
 
 
-        [HttpDelete]
-        [Route("DeleteRol_PrivFT/{id}")]
-        public ActionResult Delete(int id)
-        {
-
-            if (Rol_PrivFT.Find(id) != null)
-            {
-                Rol_PrivFT.Delet(id);
-                return Ok();
-            }
-            else //NOtFOund 
-                return NotFound();
-
-        }
     }
 }
 

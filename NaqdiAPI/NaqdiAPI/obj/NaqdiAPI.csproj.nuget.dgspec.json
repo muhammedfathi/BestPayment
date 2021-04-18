@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\DELL\\Desktop\\MaxSoftware -Tasks\\BestPayment\\28-03-2021\\NaqdiAPI\\NaqdiAPI\\NaqdiAPI.csproj": {}
+    "C:\\Users\\DELL\\Source\\Repos\\BestPayment\\NaqdiAPI\\NaqdiAPI\\NaqdiAPI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\DELL\\Desktop\\MaxSoftware -Tasks\\BestPayment\\28-03-2021\\NaqdiAPI\\NaqdiAPI\\NaqdiAPI.csproj": {
+    "C:\\Users\\DELL\\Source\\Repos\\BestPayment\\NaqdiAPI\\NaqdiAPI\\NaqdiAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\DELL\\Desktop\\MaxSoftware -Tasks\\BestPayment\\28-03-2021\\NaqdiAPI\\NaqdiAPI\\NaqdiAPI.csproj",
+        "projectUniqueName": "C:\\Users\\DELL\\Source\\Repos\\BestPayment\\NaqdiAPI\\NaqdiAPI\\NaqdiAPI.csproj",
         "projectName": "NaqdiAPI",
-        "projectPath": "C:\\Users\\DELL\\Desktop\\MaxSoftware -Tasks\\BestPayment\\28-03-2021\\NaqdiAPI\\NaqdiAPI\\NaqdiAPI.csproj",
+        "projectPath": "C:\\Users\\DELL\\Source\\Repos\\BestPayment\\NaqdiAPI\\NaqdiAPI\\NaqdiAPI.csproj",
         "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\DELL\\Desktop\\MaxSoftware -Tasks\\BestPayment\\28-03-2021\\NaqdiAPI\\NaqdiAPI\\obj\\",
+        "outputPath": "C:\\Users\\DELL\\Source\\Repos\\BestPayment\\NaqdiAPI\\NaqdiAPI\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\DELL\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -28,11 +28,11 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Users\\DELL\\Desktop\\MaxSoftware -Tasks\\BestPayment\\28-03-2021\\NaqdiAPI\\NaqdiBLL\\NaqdiBLL.csproj": {
-                "projectPath": "C:\\Users\\DELL\\Desktop\\MaxSoftware -Tasks\\BestPayment\\28-03-2021\\NaqdiAPI\\NaqdiBLL\\NaqdiBLL.csproj"
+              "C:\\Users\\DELL\\Source\\Repos\\BestPayment\\NaqdiAPI\\NaqdiBLL\\NaqdiBLL.csproj": {
+                "projectPath": "C:\\Users\\DELL\\Source\\Repos\\BestPayment\\NaqdiAPI\\NaqdiBLL\\NaqdiBLL.csproj"
               },
-              "C:\\Users\\DELL\\Desktop\\MaxSoftware -Tasks\\BestPayment\\28-03-2021\\NaqdiAPI\\NaqdiDAL\\NaqdiDAL.csproj": {
-                "projectPath": "C:\\Users\\DELL\\Desktop\\MaxSoftware -Tasks\\BestPayment\\28-03-2021\\NaqdiAPI\\NaqdiDAL\\NaqdiDAL.csproj"
+              "C:\\Users\\DELL\\Source\\Repos\\BestPayment\\NaqdiAPI\\NaqdiDAL\\NaqdiDAL.csproj": {
+                "projectPath": "C:\\Users\\DELL\\Source\\Repos\\BestPayment\\NaqdiAPI\\NaqdiDAL\\NaqdiDAL.csproj"
               }
             }
           }
@@ -94,14 +94,14 @@
         }
       }
     },
-    "C:\\Users\\DELL\\Desktop\\MaxSoftware -Tasks\\BestPayment\\28-03-2021\\NaqdiAPI\\NaqdiBLL\\NaqdiBLL.csproj": {
+    "C:\\Users\\DELL\\Source\\Repos\\BestPayment\\NaqdiAPI\\NaqdiBLL\\NaqdiBLL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\DELL\\Desktop\\MaxSoftware -Tasks\\BestPayment\\28-03-2021\\NaqdiAPI\\NaqdiBLL\\NaqdiBLL.csproj",
+        "projectUniqueName": "C:\\Users\\DELL\\Source\\Repos\\BestPayment\\NaqdiAPI\\NaqdiBLL\\NaqdiBLL.csproj",
         "projectName": "NaqdiBLL",
-        "projectPath": "C:\\Users\\DELL\\Desktop\\MaxSoftware -Tasks\\BestPayment\\28-03-2021\\NaqdiAPI\\NaqdiBLL\\NaqdiBLL.csproj",
+        "projectPath": "C:\\Users\\DELL\\Source\\Repos\\BestPayment\\NaqdiAPI\\NaqdiBLL\\NaqdiBLL.csproj",
         "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\DELL\\Desktop\\MaxSoftware -Tasks\\BestPayment\\28-03-2021\\NaqdiAPI\\NaqdiBLL\\obj\\",
+        "outputPath": "C:\\Users\\DELL\\Source\\Repos\\BestPayment\\NaqdiAPI\\NaqdiBLL\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\DELL\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -118,8 +118,8 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Users\\DELL\\Desktop\\MaxSoftware -Tasks\\BestPayment\\28-03-2021\\NaqdiAPI\\NaqdiDAL\\NaqdiDAL.csproj": {
-                "projectPath": "C:\\Users\\DELL\\Desktop\\MaxSoftware -Tasks\\BestPayment\\28-03-2021\\NaqdiAPI\\NaqdiDAL\\NaqdiDAL.csproj"
+              "C:\\Users\\DELL\\Source\\Repos\\BestPayment\\NaqdiAPI\\NaqdiDAL\\NaqdiDAL.csproj": {
+                "projectPath": "C:\\Users\\DELL\\Source\\Repos\\BestPayment\\NaqdiAPI\\NaqdiDAL\\NaqdiDAL.csproj"
               }
             }
           }
@@ -172,14 +172,14 @@
         }
       }
     },
-    "C:\\Users\\DELL\\Desktop\\MaxSoftware -Tasks\\BestPayment\\28-03-2021\\NaqdiAPI\\NaqdiDAL\\NaqdiDAL.csproj": {
+    "C:\\Users\\DELL\\Source\\Repos\\BestPayment\\NaqdiAPI\\NaqdiDAL\\NaqdiDAL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\DELL\\Desktop\\MaxSoftware -Tasks\\BestPayment\\28-03-2021\\NaqdiAPI\\NaqdiDAL\\NaqdiDAL.csproj",
+        "projectUniqueName": "C:\\Users\\DELL\\Source\\Repos\\BestPayment\\NaqdiAPI\\NaqdiDAL\\NaqdiDAL.csproj",
         "projectName": "NaqdiDAL",
-        "projectPath": "C:\\Users\\DELL\\Desktop\\MaxSoftware -Tasks\\BestPayment\\28-03-2021\\NaqdiAPI\\NaqdiDAL\\NaqdiDAL.csproj",
+        "projectPath": "C:\\Users\\DELL\\Source\\Repos\\BestPayment\\NaqdiAPI\\NaqdiDAL\\NaqdiDAL.csproj",
         "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\DELL\\Desktop\\MaxSoftware -Tasks\\BestPayment\\28-03-2021\\NaqdiAPI\\NaqdiDAL\\obj\\",
+        "outputPath": "C:\\Users\\DELL\\Source\\Repos\\BestPayment\\NaqdiAPI\\NaqdiDAL\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\DELL\\AppData\\Roaming\\NuGet\\NuGet.Config",

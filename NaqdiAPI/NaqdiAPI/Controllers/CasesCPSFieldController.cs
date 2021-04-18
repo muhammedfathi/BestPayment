@@ -33,13 +33,40 @@ namespace NaqdiAPI.Controllers
         [HttpGet, Route("GetCasesCPSField/{id}")]
         public ActionResult GetbyId(int id)
         {
-            if (CasesCPSField_Prov.Find(id) != null)
+            if (CasesCPSField_Prov.FindByCondition(e => e.ID == id) != null)
             {
-                return Ok(CasesCPSField_Prov.Find(id));
+                return Ok(CasesCPSField_Prov.FindByCondition(ag => ag.ID == id).FirstOrDefault());
             }
 
             else { return NotFound(); }
         }
+
+        [HttpGet, Route("CaseCPSFieldByCID/{id}")]
+        public ActionResult GetbyCaseCPSID(int CID)
+        {
+            if (CasesCPSField_Prov.FindByCondition(e => e.CasesCPS_ID == CID) != null)
+            {
+                return Ok(CasesCPSField_Prov.FindByCondition(ag => ag.CasesCPS_ID == CID).FirstOrDefault());
+            }
+
+            else { return NotFound(); }
+        }
+
+
+        [HttpDelete]
+        [Route("DeleteCasesCPSField/{id}")]
+        public ActionResult Delete(int id)
+        {
+            var entity = CasesCPSField_Prov.FindByCondition(ag => ag.ID == id).FirstOrDefault();
+            if (entity != null)
+            {
+                CasesCPSField_Prov.Delet(entity);
+                return Ok();
+            }
+            else
+                return NotFound();
+        }
+
 
         [HttpPost]
         [Route("AddNew")]
@@ -74,17 +101,5 @@ namespace NaqdiAPI.Controllers
                 return BadRequest();
         }
 
-        [HttpDelete]
-        [Route("DeleteCasesCPSField/{id}")]
-        public ActionResult Delete(int id)
-        {
-            if (CasesCPSField_Prov.Find(id) != null)
-            {
-                CasesCPSField_Prov.Delet(id);
-                return Ok();
-            }
-            else //NOtFOund 
-                return NotFound();
-        }
     }
 }

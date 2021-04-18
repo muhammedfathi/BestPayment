@@ -4,6 +4,7 @@ using NaqdiDAL.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Linq.Expressions;
 using System.Text;
 
 namespace NaqdiBLL.Repository
@@ -25,20 +26,18 @@ namespace NaqdiBLL.Repository
             db.SaveChanges();
         }
 
-        public void Delet(int id)
-        {
-            if (Find(id) != null)
-            {
-                db.ProvidersDeposits.Remove(Find(id));
-                db.SaveChanges();
 
-            }
+        public IList<ProvidersDeposit> FindByCondition(Expression<Func<ProvidersDeposit, bool>> expression)
+        {
+            return db.ProvidersDeposits.Where(expression).ToList();
         }
 
-        public ProvidersDeposit Find(int Key)
+        public void Delet(ProvidersDeposit Entity)
         {
-            return db.ProvidersDeposits.Find(Key) ?? null;
+            db.ProvidersDeposits.Remove(Entity);
+            db.SaveChanges();
         }
+
 
         public IList<ProvidersDeposit> getAll()
         {

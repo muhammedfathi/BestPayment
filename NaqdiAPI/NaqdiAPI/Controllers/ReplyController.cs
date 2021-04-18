@@ -33,12 +33,26 @@ namespace NaqdiAPI.Controllers
         [HttpGet, Route("GetReply/{id}")]
         public ActionResult GetbyId(int id)
         {
-            if (Reply.Find(id) != null)
+            if (Reply.FindByCondition(e => e.ID == id) != null)
             {
-                return Ok(Reply.Find(id));
+                return Ok(Reply.FindByCondition(ag => ag.ID == id).FirstOrDefault());
             }
 
             else { return NotFound(); }
+        }
+
+        [HttpDelete]
+        [Route("DeleteReply/{id}")]
+        public ActionResult Delete(int id)
+        {
+            var entity = Reply.FindByCondition(ag => ag.ID == id).FirstOrDefault();
+            if (entity != null)
+            {
+                Reply.Delet(entity);
+                return Ok();
+            }
+            else
+                return NotFound();
         }
 
 
@@ -82,17 +96,6 @@ namespace NaqdiAPI.Controllers
                 return BadRequest();
         }
 
-        [HttpDelete]
-        [Route("DeleteAgentCommission/{id}")]
-        public ActionResult Delete(int id)
-        {
-            if (Reply.Find(id) != null)
-            {
-                Reply.Delet(id);
-                return Ok();
-            }
-            else //NOtFOund 
-                return NotFound();
-        }
+
     }
 }

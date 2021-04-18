@@ -34,14 +34,28 @@ namespace NaqdiAPI.Controllers
         // GET api/<ProvidersController>/5
         [HttpGet]
         [Route("GetProvider/{id}")]
-        public ActionResult Get(int id)
+        public ActionResult GetbyId(int id)
         {
-            if (Provider.Find(id) != null)
+            if (Provider.FindByCondition(e => e.ID == id) != null)
             {
-                return Ok(Provider.Find(id));
+                return Ok(Provider.FindByCondition(ag => ag.ID == id).FirstOrDefault());
             }
-            return NotFound();
 
+            else { return NotFound(); }
+        }
+
+        [HttpDelete]
+        [Route("DeleteProvider/{id}")]
+        public ActionResult Delete(int id)
+        {
+            var entity = Provider.FindByCondition(ag => ag.ID == id).FirstOrDefault();
+            if (entity != null)
+            {
+                Provider.Delet(entity);
+                return Ok();
+            }
+            else
+                return NotFound();
         }
 
         // POST api/<ProvidersController>
@@ -82,18 +96,5 @@ namespace NaqdiAPI.Controllers
 
         }
 
-        // DELETE api/<ProvidersController>/5
-        [HttpDelete]
-        [Route("DeleteProvider/{id}")]
-        public ActionResult Delete(int id)
-        {
-            if (Provider.Find(id)!=null)
-            {
-                Provider.Delet(id);
-                return Ok();
-            }
-            return NotFound();
-
-        }
     }
 }

@@ -32,9 +32,9 @@ namespace NaqdiAPI.Controllers
         [HttpGet, Route("GetBank/{id}")]
         public ActionResult GetbyId(int id)
         {
-            if (Banks.Find(id) != null)
+            if (Banks.FindByCondition(e => e.ID == id) != null)
             {
-                return Ok(Banks.Find(id));
+                return Ok(Banks.FindByCondition(ag => ag.ID == id).FirstOrDefault());
             }
 
             else { return NotFound(); }
@@ -71,21 +71,19 @@ namespace NaqdiAPI.Controllers
             else
                 return BadRequest();
         }
-        // DELETE api/<TestController>/5
+     
         [HttpDelete]
         [Route("DeleteBank/{id}")]
         public ActionResult Delete(int id)
         {
-            try
+            var entity = Banks.FindByCondition(ag => ag.ID == id).FirstOrDefault();
+            if (entity != null)
             {
-                Banks.Delet(id);
+                Banks.Delet(entity);
                 return Ok();
             }
-            catch (Exception xx)
-            {
+            else
                 return NotFound();
-            }
-
         }
     }
 }

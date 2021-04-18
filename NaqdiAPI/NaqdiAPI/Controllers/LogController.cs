@@ -32,15 +32,27 @@ namespace NaqdiAPI.Controllers
         [HttpGet, Route("GetLog/{id}")]
         public ActionResult GetbyId(int id)
         {
-            if (Log.Find(id) != null)
+            if (Log.FindByCondition(e => e.ID == id) != null)
             {
-                return Ok(Log.Find(id));
+                return Ok(Log.FindByCondition(ag => ag.ID == id).FirstOrDefault());
             }
 
             else { return NotFound(); }
         }
 
-
+        [HttpDelete]
+        [Route("DeleteLog/{id}")]
+        public ActionResult Delete(int id)
+        {
+            var entity = Log.FindByCondition(ag => ag.ID == id).FirstOrDefault();
+            if (entity != null)
+            {
+                Log.Delet(entity);
+                return Ok();
+            }
+            else
+                return NotFound();
+        }
 
         [HttpPost]
         [Route("AddNew")]
@@ -76,21 +88,6 @@ namespace NaqdiAPI.Controllers
                 return BadRequest();
         }
 
-
-        [HttpDelete]
-        [Route("DeleteLog/{id}")]
-        public ActionResult Delete(int id)
-        {
-
-            if (Log.Find(id) != null)
-            {
-                Log.Delet(id);
-                return Ok();
-            }
-            else //NOtFOund 
-                return NotFound();
-
-        }
     }
 }
 

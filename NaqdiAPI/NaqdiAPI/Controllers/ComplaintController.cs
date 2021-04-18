@@ -33,20 +33,39 @@ namespace NaqdiAPI.Controllers
         [HttpGet, Route("GetComplaint/{id}")]
         public ActionResult GetbyId(int id)
         {
-            if (Complaint.Find(id) != null)
+            if (Complaint.FindByCondition(e => e.ID == id) != null)
             {
-                return Ok(Complaint.Find(id));
+                return Ok(Complaint.FindByCondition(ag => ag.ID == id).FirstOrDefault());
+            }
+
+            else { return NotFound(); }
+        }
+
+        [HttpGet, Route("GetComplaintByUser/{id}")]
+        public ActionResult GetbyUID(int UID)
+        {
+            if (Complaint.FindByCondition(e => e.ComplaintUserOwnerIDFK == UID) != null)
+            {
+                return Ok(Complaint.FindByCondition(ag => ag.ComplaintUserOwnerIDFK == UID).FirstOrDefault());
             }
 
             else { return NotFound(); }
         }
 
 
-        /// <summary>
-        /// GetBY UserID &DeleteBy UserID
-        /// </summary>
-
-
+        [HttpDelete]
+        [Route("DeleteComplaint/{id}")]
+        public ActionResult Delete(int id)
+        {
+            var entity = Complaint.FindByCondition(ag => ag.ID == id).FirstOrDefault();
+            if (entity != null)
+            {
+                Complaint.Delet(entity);
+                return Ok();
+            }
+            else
+                return NotFound();
+        }
 
         [HttpPost]
         [Route("AddNew")]
@@ -82,17 +101,5 @@ namespace NaqdiAPI.Controllers
                 return BadRequest();
         }
 
-        [HttpDelete]
-        [Route("DeleteComplaint/{id}")]
-        public ActionResult Delete(int id)
-        {
-            if (Complaint.Find(id) != null)
-            {
-                Complaint.Delet(id);
-                return Ok();
-            }
-            else //NOtFOund 
-                return NotFound();
-        }
     }
 }

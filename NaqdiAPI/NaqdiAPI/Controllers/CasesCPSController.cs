@@ -32,12 +32,26 @@ namespace NaqdiAPI.Controllers
         [HttpGet, Route("GetCaseCPS/{id}")]
         public ActionResult GetbyId(int id)
         {
-            if (CasesCPS.Find(id) != null)
+            if (CasesCPS.FindByCondition(e => e.ID == id) != null)
             {
-                return Ok(CasesCPS.Find(id));
+                return Ok(CasesCPS.FindByCondition(ag => ag.ID == id).FirstOrDefault());
             }
 
             else { return NotFound(); }
+        }
+
+        [HttpDelete]
+        [Route("DeleteCaseCPS/{id}")]
+        public ActionResult Delete(int id)
+        {
+            var entity = CasesCPS.FindByCondition(ag => ag.ID == id).FirstOrDefault();
+            if (entity != null)
+            {
+                CasesCPS.Delet(entity);
+                return Ok();
+            }
+            else
+                return NotFound();
         }
 
 
@@ -75,24 +89,6 @@ namespace NaqdiAPI.Controllers
             else
                 return BadRequest();
         }
-
-
-        [HttpDelete]
-        [Route("DeleteCaseCPS/{id}")]
-        public ActionResult Delete(int id)
-        {
-            if (CasesCPS.Find(id) != null)
-            {
-                CasesCPS.Delet(id);
-                return Ok();
-            }
-            else //NOtFOund 
-                return NotFound();
-        }
-
-
-
-
 
     }
 }

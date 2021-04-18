@@ -120,3 +120,10 @@ C:\Users\DELL\Desktop\MaxSoftware -Tasks\BestPayment\28-03-2021\NaqdiAPI\NaqdiAP
 C:\Users\DELL\Desktop\MaxSoftware -Tasks\BestPayment\28-03-2021\NaqdiAPI\NaqdiAPI\obj\Debug\netcoreapp3.1\NaqdiAPI.dll
 C:\Users\DELL\Desktop\MaxSoftware -Tasks\BestPayment\28-03-2021\NaqdiAPI\NaqdiAPI\obj\Debug\netcoreapp3.1\NaqdiAPI.pdb
 C:\Users\DELL\Desktop\MaxSoftware -Tasks\BestPayment\28-03-2021\NaqdiAPI\NaqdiAPI\obj\Debug\netcoreapp3.1\NaqdiAPI.genruntimeconfig.cache
+C:\Users\DELL\Source\Repos\BestPayment\NaqdiAPI\NaqdiAPI\obj\Debug\netcoreapp3.1\NaqdiAPI.csprojAssemblyReference.cache
+C:\Users\DELL\Source\Repos\BestPayment\NaqdiAPI\NaqdiAPI\obj\Debug\netcoreapp3.1\NaqdiAPI.AssemblyInfoInputs.cache
+C:\Users\DELL\Source\Repos\BestPayment\NaqdiAPI\NaqdiAPI\obj\Debug\netcoreapp3.1\NaqdiAPI.AssemblyInfo.cs
+C:\Users\DELL\Source\Repos\BestPayment\NaqdiAPI\NaqdiAPI\obj\Debug\netcoreapp3.1\NaqdiAPI.csproj.CoreCompileInputs.cache
+C:\Users\DELL\Source\Repos\BestPayment\NaqdiAPI\NaqdiAPI\obj\Debug\netcoreapp3.1\NaqdiAPI.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\DELL\Source\Repos\BestPayment\NaqdiAPI\NaqdiAPI\obj\Debug\netcoreapp3.1\NaqdiAPI.dll
+C:\Users\DELL\Source\Repos\BestPayment\NaqdiAPI\NaqdiAPI\obj\Debug\netcoreapp3.1\NaqdiAPI.pdb

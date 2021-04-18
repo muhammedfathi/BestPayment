@@ -7628,11 +7628,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\DELL\\Desktop\\MaxSoftware -Tasks\\BestPayment\\28-03-2021\\NaqdiAPI\\NaqdiDAL\\NaqdiDAL.csproj",
+      "projectUniqueName": "C:\\Users\\DELL\\Source\\Repos\\BestPayment\\NaqdiAPI\\NaqdiDAL\\NaqdiDAL.csproj",
       "projectName": "NaqdiDAL",
-      "projectPath": "C:\\Users\\DELL\\Desktop\\MaxSoftware -Tasks\\BestPayment\\28-03-2021\\NaqdiAPI\\NaqdiDAL\\NaqdiDAL.csproj",
+      "projectPath": "C:\\Users\\DELL\\Source\\Repos\\BestPayment\\NaqdiAPI\\NaqdiDAL\\NaqdiDAL.csproj",
       "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\DELL\\Desktop\\MaxSoftware -Tasks\\BestPayment\\28-03-2021\\NaqdiAPI\\NaqdiDAL\\obj\\",
+      "outputPath": "C:\\Users\\DELL\\Source\\Repos\\BestPayment\\NaqdiAPI\\NaqdiDAL\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\DELL\\AppData\\Roaming\\NuGet\\NuGet.Config",

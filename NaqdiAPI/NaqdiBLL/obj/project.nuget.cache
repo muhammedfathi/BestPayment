@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "roqCGaZkV0gt/tL08tQyaUAnH9V821so3q+ZC/L68w0Mycc8vn1dVpjC1Kj+vP5s70Cwop8rVUNlskM3k3rysA==",
+  "dgSpecHash": "dI787DURdcstinSwBrUaPN+aYT3Ot0gcD/qiaV0dpuuXqf0h3wdP+Oy98J2PUZWNIWNaUsNpWESyaUYOSv62sQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\DELL\\Desktop\\MaxSoftware -Tasks\\BestPayment\\28-03-2021\\NaqdiAPI\\NaqdiBLL\\NaqdiBLL.csproj",
+  "projectFilePath": "C:\\Users\\DELL\\Source\\Repos\\BestPayment\\NaqdiAPI\\NaqdiBLL\\NaqdiBLL.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\DELL\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\DELL\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",

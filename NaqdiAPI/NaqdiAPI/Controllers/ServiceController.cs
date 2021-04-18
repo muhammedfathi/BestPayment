@@ -30,12 +30,27 @@ namespace NaqdiAPI.Controllers
         // GET api/<ServiceController>/5
         [HttpGet]
         [Route("GetService/{id}")]
-        public ActionResult Get(int id)
+        public ActionResult GetbyId(int id)
         {
-            if (service.Find(id) != null)
+            if (service.FindByCondition(e => e.ID == id) != null)
             {
-                return Ok(service.Find(id));
+                return Ok(service.FindByCondition(ag => ag.ID == id).FirstOrDefault());
             }
+
+            else { return NotFound(); }
+        }
+
+        [HttpDelete]
+        [Route("DeleteService/{id}")]
+        public ActionResult Delete(int id)
+        {
+            var entity = service.FindByCondition(ag => ag.ID == id).FirstOrDefault();
+            if (entity != null)
+            {
+                service.Delet(entity);
+                return Ok();
+            }
+            else
                 return NotFound();
         }
 
@@ -75,20 +90,5 @@ namespace NaqdiAPI.Controllers
             return BadRequest();
         }
 
-        // DELETE api/<ServiceController>/5
-        [HttpDelete]
-        [Route("DeleteService/{id}")]
-        public ActionResult Delete(int id)
-        {
-
-            if (service.Find(id) != null)
-            {
-                service.Delet(id);
-                return Ok();
-            }
-            else //NOtFOund 
-                return NotFound();
-            
-        }
     }
 }

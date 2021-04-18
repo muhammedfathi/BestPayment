@@ -18,8 +18,6 @@ namespace NaqdiAPI.Controllers
         {
             this.Service_Provider = Service_Provider;
         }
-
-
         [HttpGet]
         [Route("GetAllService_Providers")]
         public IEnumerable<Service_Provider> Get()
@@ -30,16 +28,27 @@ namespace NaqdiAPI.Controllers
         [HttpGet, Route("GetService_Provider/{id}")]
         public ActionResult GetbyId(int id)
         {
-            if (Service_Provider.Find(id) != null)
+            if (Service_Provider.FindByCondition(e => e.Serv_ProvID == id) != null)
             {
-                return Ok(Service_Provider.Find(id));
+                return Ok(Service_Provider.FindByCondition(ag => ag.Serv_ProvID == id).FirstOrDefault());
             }
 
             else { return NotFound(); }
         }
 
-
-
+        [HttpDelete]
+        [Route("DeleteService_Provider/{id}")]
+        public ActionResult Delete(int id)
+        {
+            var entity = Service_Provider.FindByCondition(ag => ag.Serv_ProvID == id).FirstOrDefault();
+            if (entity != null)
+            {
+                Service_Provider.Delet(entity);
+                return Ok();
+            }
+            else
+                return NotFound();
+        }
         [HttpPost]
         [Route("AddNew")]
         public ActionResult Post([FromBody] Service_Provider newService_Provider)
@@ -72,21 +81,6 @@ namespace NaqdiAPI.Controllers
             }
             else
                 return BadRequest();
-        }
-        // DELETE api/<TestController>/5
-        [HttpDelete]
-        [Route("DeleteService_Provider/{id}")]
-        public ActionResult Delete(int id)
-        {
-
-            if (Service_Provider.Find(id) != null)
-            {
-                Service_Provider.Delet(id);
-                return Ok();
-            }
-            else //NOtFOund 
-                return NotFound();
-
         }
     }
 }

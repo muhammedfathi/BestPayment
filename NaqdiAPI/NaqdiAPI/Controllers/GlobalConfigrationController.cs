@@ -31,12 +31,27 @@ namespace NaqdiAPI.Controllers
         [HttpGet, Route("GetGlobalConfigration/{id}")]
         public ActionResult GetbyId(int id)
         {
-            if (GlobalConfigration.Find(id) != null)
+            if (GlobalConfigration.FindByCondition(e => e.ID == id) != null)
             {
-                return Ok(GlobalConfigration.Find(id));
+                return Ok(GlobalConfigration.FindByCondition(ag => ag.ID == id).FirstOrDefault());
             }
 
             else { return NotFound(); }
+        }
+
+
+        [HttpDelete]
+        [Route("DeleteGlobalConfigration/{id}")]
+        public ActionResult Delete(int id)
+        {
+            var entity = GlobalConfigration.FindByCondition(ag => ag.ID == id).FirstOrDefault();
+            if (entity != null)
+            {
+                GlobalConfigration.Delet(entity);
+                return Ok();
+            }
+            else
+                return NotFound();
         }
 
 
@@ -75,19 +90,6 @@ namespace NaqdiAPI.Controllers
                 return BadRequest();
         }
         
-        [HttpDelete]
-        [Route("DeleteGlobalConfigration/{id}")]
-        public ActionResult Delete(int id)
-        {
 
-            if (GlobalConfigration.Find(id) != null)
-            {
-                GlobalConfigration.Delet(id);
-                return Ok();
-            }
-            else //NOtFOund 
-                return NotFound();
-
-        }
     }
 }

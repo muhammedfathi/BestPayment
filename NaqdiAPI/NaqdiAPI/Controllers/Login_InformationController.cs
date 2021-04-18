@@ -21,7 +21,6 @@ namespace NaqdiAPI.Controllers
             this.Login_Information = Login_Information;
         }
 
-
         [HttpGet]
         [Route("GetAllLogin_Information")]
         public IEnumerable<Login_Information> Get()
@@ -29,23 +28,30 @@ namespace NaqdiAPI.Controllers
             return Login_Information.getAll();
         }
 
-
-        /// <summary>
-        /// UserID NOt RowID??
-        /// </summary>
-      
-
         [HttpGet, Route("GetLogin_Information/{id}")]
         public ActionResult GetbyId(int id)
         {
-            if (Login_Information.Find(id) != null)
+            if (Login_Information.FindByCondition(e => e.id == id) != null)
             {
-                return Ok(Login_Information.Find(id));
+                return Ok(Login_Information.FindByCondition(ag => ag.id == id).FirstOrDefault());
             }
 
             else { return NotFound(); }
         }
 
+        [HttpDelete]
+        [Route("DeleteLogin_Information/{id}")]
+        public ActionResult Delete(int id)
+        {
+            var entity = Login_Information.FindByCondition(ag => ag.id == id).FirstOrDefault();
+            if (entity != null)
+            {
+                Login_Information.Delet(entity);
+                return Ok();
+            }
+            else
+                return NotFound();
+        }
 
 
         [HttpPost]
@@ -82,21 +88,6 @@ namespace NaqdiAPI.Controllers
                 return BadRequest();
         }
 
-
-        [HttpDelete]
-        [Route("DeleteLogin_Information/{id}")]
-        public ActionResult Delete(int id)
-        {
-
-            if (Login_Information.Find(id) != null)
-            {
-                Login_Information.Delet(id);
-                return Ok();
-            }
-            else //NOtFOund 
-                return NotFound();
-
-        }
     }
 }
 

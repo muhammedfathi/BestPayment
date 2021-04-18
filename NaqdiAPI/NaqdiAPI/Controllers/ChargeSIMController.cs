@@ -33,17 +33,27 @@ namespace NaqdiAPI.Controllers
         [HttpGet, Route("GetChargeSim/{id}")]
         public ActionResult GetbyId(int id)
         {
-            if (ChargeSim.Find(id) != null)
+            if (ChargeSim.FindByCondition(e => e.ID == id) != null)
             {
-                return Ok(ChargeSim.Find(id));
+                return Ok(ChargeSim.FindByCondition(ag => ag.ID == id).FirstOrDefault());
             }
 
             else { return NotFound(); }
         }
 
-
-
-
+        [HttpDelete]
+        [Route("DeleteChargeSim/{id}")]
+        public ActionResult Delete(int id)
+        {
+            var entity = ChargeSim.FindByCondition(ag => ag.ID == id).FirstOrDefault();
+            if (entity != null)
+            {
+                ChargeSim.Delet(entity);
+                return Ok();
+            }
+            else
+                return NotFound();
+        }
 
         [HttpPost]
         [Route("AddNew")]
@@ -79,17 +89,7 @@ namespace NaqdiAPI.Controllers
                 return BadRequest();
         }
 
-        [HttpDelete]
-        [Route("DeleteChargeSim/{id}")]
-        public ActionResult Delete(int id)
-        {
-            if (ChargeSim.Find(id) != null)
-            {
-                ChargeSim.Delet(id);
-                return Ok();
-            }
-            else //NOtFOund 
-                return NotFound();
-        }
+      
+
     }
 }
